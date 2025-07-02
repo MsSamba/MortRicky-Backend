@@ -13,6 +13,10 @@ def scrape_rick_and_morty_data():
     # Main Rick and Morty Wikipedia page
     main_url = "https://en.wikipedia.org/wiki/Rick_and_Morty"
     episodes_url = "https://en.wikipedia.org/wiki/List_of_Rick_and_Morty_episodes"
+
+    headers = {
+    "User-Agent": "Chrome/5.0"
+}
     
     episodes_data = []
     
